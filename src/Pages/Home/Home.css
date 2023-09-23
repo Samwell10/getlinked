@@ -43,7 +43,7 @@
     left: 100px;
     font-size: 0.625rem;
     color: whitesmoke;
-    animation: blink 4s infinite;
+    animation: blink 1s infinite;
 }
 .star-2{
     position: absolute;
@@ -51,7 +51,7 @@
     right: 50px;
     font-size:0.375rem;
     color: rgba(211, 211, 211, 0.4);
-    animation: blink2 4s infinite;
+    animation: blink2 1s infinite;
 }
 .star-3{
     position: absolute;
@@ -161,11 +161,13 @@
     display: block;
 }
 .timeline{
+    position: relative;
     border-top: 1px solid rgba(255, 255, 255, 0.18);
     padding: 1.81rem 3.37rem 4.44rem 3.37rem;
     display: block;
 }
 .prize{
+    position: relative;
     border-top: none;
     background-color: #130d25;
 }
@@ -208,7 +210,7 @@
     left: 20px;
     font-size: 0.6875rem;
     color: var(--other-color);
-    animation: blink3 4s infinite;
+    animation: blink3 1s infinite;
 }
 .star-5{
     position: absolute;
@@ -216,7 +218,7 @@
     right: 0px;
     font-size: 0.6875rem;
     color: var(--secondary-color);
-    animation: blink4 4s infinite;
+    animation: blink4 1s infinite;
 }
 .star-6{
     position: absolute;
@@ -224,14 +226,14 @@
     top: 50px;
     font-size: 0.75rem;
     color: rgba(211, 211, 211, 0.4);
-    animation: blink2 4s infinite;
+    animation: blink2 1s infinite;
 }
 .star-7{
     margin-top: 15px;
     margin-left: 70px;
     font-size: 0.625rem;
     color: whitesmoke;
-    animation: blink 4s infinite;
+    animation: blink 1s infinite;
 }
 .star-8{
     position: absolute;
@@ -239,7 +241,7 @@
     top: 150px;
     font-size: 0.75rem;
     color: rgba(211, 211, 211, 0.4);
-    animation: blink2 4s infinite;
+    animation: blink2 1s infinite;
 }
 .star-9{
     position: absolute;
@@ -247,7 +249,7 @@
     left: 45%;
     font-size: 0.8125rem;
     color: var(--secondary-color);
-    animation: blink4 4s infinite;
+    animation: blink4 1s infinite;
 }
 .star-10{
     position: absolute;
@@ -255,7 +257,7 @@
     top: 55%;
     font-size: 0.75rem;
     color: rgba(211, 211, 211, 0.4);
-    animation: blink2 4s infinite;
+    animation: blink2 1s infinite;
 }
 .star-11{
     position: absolute;
@@ -263,7 +265,7 @@
     right: 0px;
     font-size: 0.625rem;
     color: whitesmoke;
-    animation: blink 4s infinite;
+    animation: blink 1s infinite;
 }
 .star-12{
     position: absolute;
@@ -271,7 +273,7 @@
     left: 20px;
     font-size: 1.125rem;
     color: var(--other-color);
-    animation: blink3 4s infinite;
+    animation: blink3 1s infinite;
 }
 .star-13{
     position: absolute;
@@ -279,7 +281,7 @@
     left: 50%;
     font-size: 0.625rem;
     color: var(--other-color);
-    animation: blink3 4s infinite;
+    animation: blink3 1s infinite;
 }
 .star-14{
     position: absolute;
@@ -287,7 +289,7 @@
     left: 20%;
     font-size: 0.4375rem;
     color: var(--other-color);
-    animation: blink3 4s infinite;
+    animation: blink3 1s infinite;
 }
 .star-15{
     position: absolute;
@@ -295,7 +297,7 @@
     left: 8%;
     font-size: 0.625rem;
     color: rgba(211, 211, 211, 0.4);
-    animation: blink2 4s infinite;
+    animation: blink2 1s infinite;
 }
 .star-16{
     position: absolute;
@@ -303,7 +305,7 @@
     right: 18%;
     font-size: 1rem;
     color: whitesmoke;
-    animation: blink 4s infinite;
+    animation: blink 1s infinite;
 }
 .star-34{
     position: absolute;
@@ -311,7 +313,7 @@
     right: 20%;
     font-size: 0.5rem;
     color: rgba(211, 211, 211, 0.4);
-    animation: blink2 4s infinite;
+    animation: blink2 1s infinite;
 }
 .star-35{
     position: absolute;
@@ -319,7 +321,7 @@
     right: 10%;
     font-size: 1.0625rem;
     color: var(--other-color);
-    animation: blink3 4s infinite;
+    animation: blink3 1s infinite;
 }
 .star-36{
     position: absolute;
@@ -327,7 +329,7 @@
     left: -8%;
     font-size: 1.0625rem;
     color: var(--other-color);
-    animation: blink3 4s infinite;
+    animation: blink3 1s infinite;
 }
 .star-37{
     position: absolute;
@@ -335,7 +337,7 @@
     left: 0%;
     font-size: 1.0625rem;
     color: var(--other-color);
-    animation: blink3 4s infinite;
+    animation: blink3 1s infinite;
 }
 .star-38{
     position: absolute;
@@ -343,7 +345,7 @@
     right: 25%;
     font-size: 0.4375rem;
     color: whitesmoke;
-    animation: blink 4s infinite;
+    animation: blink 1s infinite;
 }
 .star-39{
     position: absolute;
@@ -351,7 +353,7 @@
     left: 20%;
     font-size: 0.6375rem;
     color: whitesmoke;
-    animation: blink 4s infinite;
+    animation: blink 1s infinite;
 }
 .star-40{
     position: absolute;
@@ -359,7 +361,7 @@
     right: 0%;
     font-size: 0.5rem;
     color: rgba(211, 211, 211, 0.4);
-    animation: blink2 4s infinite;
+    animation: blink2 1s infinite;
 }
 @keyframes blink4 {
     0%{
@@ -582,6 +584,9 @@
 .prize-body{
     display: block;
 }
+.timeline-bo{
+    margin-top: 30px;
+}
 @media (min-width: 390px) {
     .Typewriter__wrapper, .Typewriter__cursor{
         font-size: 0.9rem;
@@ -628,7 +633,7 @@
         left: 50px;
         font-size: 1.625rem;
         color: whitesmoke;
-        animation: blink 4s infinite;
+        animation: blink 1s infinite;
         transition: ease-in-out;
     }
     .star-2{
@@ -637,7 +642,7 @@
         left: 750px;
         font-size: 1.625rem;
         color: rgba(211, 211, 211, 0.4);
-        animation: blink2 4s infinite;
+        animation: blink2 1s infinite;
     }
     .star-3{
         position: absolute;
@@ -732,7 +737,7 @@
         top: -40px;
         font-size:1.625rem;
         color: rgba(211, 211, 211, 0.4);
-        animation: blink2 4s infinite;
+        animation: blink2 1s infinite;
     }
     .star-7{
         position: absolute;
@@ -741,7 +746,7 @@
         right: 0px;
         font-size: 1.625rem;
         color: whitesmoke;
-        animation: blink 4s infinite;
+        animation: blink 1s infinite;
     }
     .star-8{
         display: none;
@@ -752,7 +757,7 @@
         left: 25%;
         font-size: 1.875rem;
         color: var(--secondary-color);
-        animation: blink4 4s infinite;
+        animation: blink4 1s infinite;
     }
     .star-10{
         position: absolute;
@@ -760,7 +765,7 @@
         top: 55%;
         font-size: 1.625rem;
         color: rgba(211, 211, 211, 0.4);
-        animation: blink2 4s infinite;
+        animation: blink2 1s infinite;
     }
     .star-11{
         position: absolute;
@@ -768,7 +773,7 @@
         left: -15%;
         font-size: 1.625rem;
         color: whitesmoke;
-        animation: blink 4s infinite;
+        animation: blink 1s infinite;
     }
     .star-12{
         position: absolute;
@@ -776,7 +781,7 @@
         left: -4%;
         font-size: 1.875rem;
         color: var(--other-color);
-        animation: blink3 4s infinite;
+        animation: blink3 1s infinite;
     }
     .star-13{
         top: -5%;
@@ -805,7 +810,7 @@
         right: 20%;
         font-size: 1.625rem;
         color: rgba(211, 211, 211, 0.4);
-        animation: blink2 4s infinite;
+        animation: blink2 1s infinite;
     }
     .star-35{
         position: absolute;
@@ -813,7 +818,7 @@
         right: 0%;
         font-size: 1.0625rem;
         color: var(--other-color);
-        animation: blink3 4s infinite;
+        animation: blink3 1s infinite;
     }
     .star-36{
         font-size: 1.0625rem;
@@ -824,7 +829,7 @@
         left: 30%;
         font-size: 1.0625rem;
         color: var(--other-color);
-        animation: blink3 4s infinite;
+        animation: blink3 1s infinite;
     }
     .star-38, .star-39, .star-40{
         font-size:  0.9375rem;

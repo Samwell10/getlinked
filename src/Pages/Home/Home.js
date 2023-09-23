@@ -20,7 +20,19 @@ import Footer from '../../Components/Footer/Footer';
 import Sponsors from '../../Components/Sponsors/Sponsors';
 import Medal from '../../Components/Medals/Medal';
 import Timeline from '../../Components/Timeline/Timeline';
+import {motion, useInView, useAnimation} from 'framer-motion'
+import { useEffect, useRef } from 'react';
 const Home = () => {
+    const ref = useRef(null)
+    const isinview = useInView(ref, {once: true});
+    const maincontrol = useAnimation();
+    const maincontrol2 = useAnimation();
+    useEffect(()=>{
+        if(isinview){
+            maincontrol.start("visible");
+            maincontrol2.start("visible")
+        }
+    },[isinview])
     return ( 
         <div className="home">
             <Navigation/>
@@ -37,8 +49,17 @@ const Home = () => {
                         <img src={curve}></img>
                     </div>
                 </div>
-                <div className="header-inner">
-                    <div className="getlinked">
+                <div ref={ref} className="header-inner">
+                    <motion.div 
+                    variants={{
+                        hidden: {opacity:0, y:175},
+                        visible: {opacity:1, y:0}
+                        
+                    }}
+                    initial="hidden"
+                    animate={maincontrol2}
+                    transition={{duration: 0.5, delay: 0.25}}
+                    className="getlinked">
                         <div className="star-1"><PiStarFourFill/></div>
                         <div className="getlinked-head">
                             <img src={bulb} className='bulb'></img>
@@ -57,7 +78,7 @@ const Home = () => {
                         <div className="countdown-con">
                             <Countdown countdownstamp={3600}/>
                         </div>
-                    </div>
+                    </motion.div>
                 </div>
             </header>
             <section className="intoduction">
@@ -68,14 +89,23 @@ const Home = () => {
                     <div className="curve2">
                         <img src={curve2}></img>
                     </div>
-                    <img src={idea}></img>
+                    <img src={idea} loading='lazy'></img>
                     <p>The Big Idea!</p>
                 </div>
                 <div className="intoduction-right">
                     <div className="star-5">
                         <PiStarFourFill/>
                     </div>
-                    <h2 className='intro-header'>Introduction to getlinked <br></br> <span>tech Hackathon 1.0</span></h2>
+                    <motion.h2 
+                    variants={{
+                        hidden: {opacity:0, x:175},
+                        visible: {opacity:1, x:0}
+                        
+                    }}
+                    initial="hidden"
+                    animate={maincontrol}
+                    transition={{duration: 0.5, delay: 0.25}}
+                    className='intro-header'>Introduction to getlinked <br></br> <span>tech Hackathon 1.0</span></motion.h2>
                     <p className='intro-text'>Our tech hackathon is a melting pot of visionaries, and its purpose is as clear as day: to shape the future. Whether you're a coding genius, a design maverick, or a concept wizard, you'll have the chance to transform your ideas into reality. Solving real-world problems, pushing the boundaries of technology, and creating solutions that can change the world, that's what we're all about!</p>
                 </div>
             </section>
@@ -87,7 +117,7 @@ const Home = () => {
                     <div className="star-8">
                         <PiStarFourFill/>
                     </div>
-                    <img src={rule}></img>
+                    <img src={rule} loading='lazy'></img>
                 </div>
                 <div className="intoduction-right rules-right">
                     <div className="star-6">
@@ -108,7 +138,7 @@ const Home = () => {
                     <div className="star-9">
                         <PiStarFourFill/>
                     </div>
-                    <img src={key}></img>
+                    <img src={key}  loading='lazy'></img>
                     <div className="star-10">
                         <PiStarFourFill/>
                     </div>
@@ -193,18 +223,28 @@ const Home = () => {
                     <div className="question-icon-3">
                         <p>?</p>
                     </div>
-                    <img src={think}></img>
+                    <img src={think} loading='lazy'></img>
                     <div className="star-16">
                         <PiStarFourFill/>
                     </div>
                 </div>
             </section>
             <section className="timeline">
+                <div className="star-12">
+                    <PiStarFourFill/>
+                </div>
                 <p className="partners-head">Timeline</p>
                 <div className="partners-text-con">
                     <p className="partners-text">Here is the breakdown of the time we anticipate using for the upcoming event.</p>
                 </div>
-                <Timeline/>
+                <div className="timeline-bo">
+                    <div className="star-18">
+                        <PiStarFourFill/>
+                    </div>
+                    <Timeline/>
+                    
+                </div>
+                
             </section>
             <section className="prize">
                 <div className="price-head">
@@ -212,13 +252,28 @@ const Home = () => {
                         <h2 className='intro-header'>Prizes and <br></br><span>Rewards</span></h2>
                         <p className='intro-text prize-head-text'>Highlight of the prizes or rewards for winners and for participants.</p>
                     </div>
+                    <div className="star-17">
+                        <PiStarFourFill/>
+                    </div>
                 </div>
                 <div className="prize-body">
                     <div className="intoduction-left prize-left">
-                        <img src={trophy}></img>
+                        <img src={trophy}  loading='lazy'></img>
+                        <div className="star-15">
+                            <PiStarFourFill/>
+                        </div>
+                        <div className="star-19">
+                        <PiStarFourFill/>
+                    </div>
                     </div>
                     <div className="intoduction-right prize-right">
+                        <div className="star-30">
+                            <PiStarFourFill/>
+                        </div>
                         <Medal/>
+                        <div className="star-40">
+                            <PiStarFourFill/>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -284,7 +339,7 @@ const Home = () => {
                     <div className="star-38">
                         <PiStarFourFill/>
                     </div>
-                    <img src={privacy}></img>
+                    <img src={privacy}  loading='lazy'></img>
                     <div className="star-39">
                         <PiStarFourFill/>
                     </div>

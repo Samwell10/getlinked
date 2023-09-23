@@ -68,7 +68,7 @@
     right: 0%;
     font-size: 0.625rem;
     color: var(--secondary-color);
-    animation: blink4 4s infinite;
+    animation: blink4 1s infinite;
 }
 .star-28{
     position: absolute;
@@ -76,7 +76,7 @@
     left: 10%;
     font-size: 0.875rem;
     color: rgba(211, 211, 211, 0.4);
-    animation: blink2 4s infinite;
+    animation: blink2 1s infinite;
 }
 .star-29{
     display: block;
@@ -85,7 +85,7 @@
     right: 10%;
     font-size: 0.6875rem;
     color: var(--order-color);
-    animation: blink3 4s infinite;
+    animation: blink3 1s infinite;
 }
 @media (min-width: 1000px){
     .modal{
@@ -121,7 +121,7 @@
         left: 10%;
         font-size: 1.4375rem;
         color: rgba(211, 211, 211, 0.4);
-        animation: blink2 4s infinite;
+        animation: blink2 1s infinite;
     }
     .star-29{
         bottom: 5%;

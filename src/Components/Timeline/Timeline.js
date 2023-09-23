@@ -1,14 +1,22 @@
+import { PiStarFourFill } from 'react-icons/pi';
 import './Timeline.css'
 const Timeline = () => {
     return ( 
         <div className="timelinee">
             <div className="timeline-outer">
+                <div className="star-15">
+                        <PiStarFourFill/>
+                    </div>
+                    <div className="star-20">
+                        <PiStarFourFill/>
+                    </div>
                 <div className="container left-container">
                     <div className="numbers">
                         <div className="numbers-inner">
                             <p>1</p>
                         </div>
                     </div>
+
                     <div className="textbox">
                         <h2 className="timeline-head">Hackathon Announcement</h2>
                         <p className="timeline-body">The getlinked tech hackathon 1.0 is formally announced to the general public and teams begin to get ready to register</p>
@@ -86,6 +94,9 @@ const Timeline = () => {
                     <div className="timelinedate2">
                         <h2 className="timeline-head">November 18, 2023</h2>
                     </div> 
+                </div>
+                <div className="star-20">
+                    <PiStarFourFill/>
                 </div>
             </div>
         </div>

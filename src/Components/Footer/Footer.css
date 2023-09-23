@@ -120,7 +120,7 @@
     left: -8%;
     font-size: 0.75rem;
     color: whitesmoke;
-    animation: blink 4s infinite;
+    animation: blink 1s infinite;
 }
 .star-31{
     position: absolute;
@@ -128,7 +128,7 @@
     right: 25%;
     font-size: 0.75rem;
     color: rgba(211, 211, 211, 0.4);
-    animation: blink2 4s infinite;
+    animation: blink2 1s infinite;
 }
 .star-32{
     position: absolute;
@@ -136,7 +136,7 @@
     right: 8%;
     font-size: 0.4375rem;
     color: whitesmoke;
-    animation: blink 4s infinite;
+    animation: blink 1s infinite;
 }
 .star-33{
     position: absolute;
@@ -144,7 +144,7 @@
     left: 30%;
     font-size: 0.4375rem;
     color: var(--secondary-color);
-    animation: blink4 4s infinite;
+    animation: blink4 1s infinite;
 }
 @media screen and (min-width:1000px){
     .footer{
@@ -181,7 +181,7 @@
         left: -8%;
         font-size: 0.9375rem;
         color: whitesmoke;
-        animation: blink 4s infinite;
+        animation: blink 1s infinite;
     }
     .star-31{
         position: absolute;
@@ -189,7 +189,7 @@
         right: 25%;
         font-size: 0.9375rem;
         color: rgba(211, 211, 211, 0.4);
-        animation: blink2 4s infinite;
+        animation: blink2 1s infinite;
     }
     .star-32{
         position: absolute;
@@ -197,7 +197,7 @@
         right: -40%;
         font-size: 0.9375rem;
         color: whitesmoke;
-        animation: blink 4s infinite;
+        animation: blink 1s infinite;
     }
     .star-33{
         position: absolute;
@@ -205,6 +205,6 @@
         left: -90%;
         font-size: 0.9375rem;
         color: var(--secondary-color);
-        animation: blink4 4s infinite;
+        animation: blink4 1s infinite;
     }
 }

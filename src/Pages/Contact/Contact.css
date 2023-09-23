@@ -131,7 +131,7 @@
     left: 50%;
     font-size: 0.6875rem;
     color: var(--other-color);
-    animation: blink3 4s infinite;
+    animation: blink3 1s infinite;
 }
 .star-18{
     position: absolute;
@@ -139,7 +139,7 @@
     right: 0%;
     font-size: 1rem;
     color: rgba(211, 211, 211, 0.4);
-    animation: blink2 4s infinite;
+    animation: blink2 1s infinite;
 }
 .star-19{
     position: absolute;
@@ -147,7 +147,7 @@
     right: -8%;
     font-size: 0.75rem;
     color: whitesmoke;
-    animation: blink 4s infinite;
+    animation: blink 1s infinite;
 }
 .star-20{
     position: absolute;
@@ -155,7 +155,7 @@
     left: 0%;
     font-size: 0.75rem;
     color: var(--secondary-color);
-    animation: blink4 4s infinite;
+    animation: blink4 1s infinite;
 }
 @media (min-width:1000px){
     .contact-body{
@@ -233,7 +233,7 @@
         right: 5%;
         font-size: 1.625rem;
         color: rgba(211, 211, 211, 0.4);
-        animation: blink2 4s infinite;
+        animation: blink2 1s infinite;
     }
     .star-19{
         position: absolute;
@@ -241,7 +241,7 @@
         right: -8%;
         font-size: 1.625rem;
         color: whitesmoke;
-        animation: blink 4s infinite;
+        animation: blink 1s infinite;
     }
     .star-20{
         position: absolute;
@@ -249,7 +249,7 @@
         left: -2%;
         font-size: 1.625rem;
         color: var(--secondary-color);
-        animation: blink4 4s infinite;
+        animation: blink4 1s infinite;
     }
     .star-21{
         position: absolute;
@@ -257,6 +257,6 @@
         left: -2%;
         font-size: 1.625rem;
         color: var(--secondary-color);
-        animation: blink4 4s infinite;
+        animation: blink4 1s infinite;
     }
 }

@@ -188,7 +188,7 @@
     left: -10%;
     font-size: 0.875rem;
     color: rgba(211, 211, 211, 0.4);
-    animation: blink2 4s infinite;
+    animation: blink2 1s infinite;
 }
 .star-23{
     position: absolute;
@@ -196,7 +196,7 @@
     right: -8%;
     font-size: 0.5625rem;
     color: var(--secondary-color);
-    animation: blink4 4s infinite;
+    animation: blink4 1s infinite;
 }
 .star-24{
     position: absolute;
@@ -204,7 +204,7 @@
     right: 0%;
     font-size: 0.875rem;
     color: var(--secondary-color);
-    animation: blink4 4s infinite;
+    animation: blink4 1s infinite;
 }
 .star-25, .star-26{
     display: none;
@@ -308,7 +308,7 @@
         right: 0%;
         font-size: 1.625rem;
         color: rgba(211, 211, 211, 0.4);
-        animation: blink2 4s infinite;
+        animation: blink2 1s infinite;
     }
     .star-24{
         position: absolute;
@@ -316,7 +316,7 @@
         right: 10%;
         font-size: 1.4375rem;
         color: var(--secondary-color);
-        animation: blink4 4s infinite;
+        animation: blink4 1s infinite;
     }
     .star-25{
         display: block;
@@ -325,7 +325,7 @@
         left: 0%;
         font-size: 1.625rem;
         color: rgba(211, 211, 211, 0.4);
-        animation: blink2 4s infinite;
+        animation: blink2 1s infinite;
     }
     .star-26{
         display: block;
@@ -334,6 +334,6 @@
         left: 0%;
         font-size: 1.3125rem;
         color: var(--order-color);
-        animation: blink3 4s infinite;
+        animation: blink3 1s infinite;
     }
 }
