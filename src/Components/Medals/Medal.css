@@ -1,0 +1,110 @@
+.medal{
+    /* width: 100%; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+}
+.medal img{
+    width: 100%;
+}
+.second{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    /* width: 90.007px;
+    height: 125.671px; */
+    padding: 2.57rem 0.7rem 1.41rem 0.7rem;
+    border-radius: 8px;
+    border: 1px solid var(--other-color);
+    background: rgba(212, 52, 254, 0.12);
+}
+.first{
+    padding: 4.29rem 0.7rem 0.98rem 0.7rem;
+    border-radius: 8px;
+    border: 1px solid #903AFF;
+    background: rgba(144, 58, 255, 0.12);
+}
+.first-medal{
+    width: 125.671px;
+    height: 125.671px;
+    position: absolute;
+    top: -35%;
+}
+.second-medal{
+    position: absolute;
+    top: -32%;
+    width: 100%;
+}
+.position{
+    text-align: center;
+    margin-top: 8px;
+    color: #FFF;
+    font-family: "Montserrat";
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 700;   
+}
+.runner{
+    margin-top: 8px;
+    text-align: center;
+    color: #FFF;
+    font-family: "Montserrat";
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 600;
+}
+.cash{
+    margin-top: 8px;
+    text-align: center;
+    color: var(--other-color);
+    font-family: "Montserrat";
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 700;
+}
+.cash-2{
+    color: #903AFF;
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 216.4%; /* 30.296px */
+}
+@media screen and (min-width: 1000px) {
+    .second{
+        padding: 6.94rem 1.63rem 2.06rem 1.63rem;
+    }
+    .first{
+        padding: 9.31rem 1.63rem 1.31rem 1.63rem;
+    }
+    .position{
+        font-size: 2.25rem;
+    }
+    .runner{
+        font-size: 1.5rem;
+    }
+    .cash{
+        font-size: 2rem;
+    }
+    .cash-2{
+        color: #903AFF;
+        font-family: "Montserrat";
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 216.4%; /* 4.328rem */
+    }
+    .first-medal{
+        width: 296px;
+        height: 296px;
+        position: absolute;
+        top: -50%;
+    }
+    .second-medal{
+        position: absolute;
+        top: -32%;
+        width: 100%;
+    }
+}

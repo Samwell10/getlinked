@@ -1,0 +1,339 @@
+.register-nav-mobile{
+    padding: 1.5rem 3.19rem;
+}
+.register-head{
+    color: #D434FE;
+    font-family: "Clash Display";
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.register-head-2{
+    display: none;
+}
+.register-body{
+    padding: 1rem 3.06rem;
+}
+.register-left, .register-right{
+    position: relative;
+}
+.register-con{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.register-con img{
+    width: 70%;
+}
+.register-instruction{
+    text-align: left;
+    color: #FFF;
+    font-family: "Montserrat";
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.register-instruction span{
+    padding: 0rem 1.82rem;
+    border-bottom: 1px dashed var(--other-color);
+}
+.register-instruction span img{
+    width: 1.43381rem;
+    transform: rotateY(180deg);
+}
+.register-topic{
+    margin-top: 7px;
+    color: #FFF;
+    font-family: "Montserrat";
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.register-form{
+    width: 100%;
+    margin-top: 23px;
+}
+.form-2{
+    margin-bottom: 18px;
+}
+.form-3{
+    position: relative;
+}
+.form-3-inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0.63rem 0.75rem;
+    margin-top: 5px;
+    border-radius: 4px;
+    border: 1px solid #FFF;
+    background: rgba(255, 255, 255, 0.03);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.form-2 label, .form-3 label{
+    color: #FFF;
+    font-family: "Montserrat";
+    font-size: 0.8125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.form-3-inner p,.form-3 svg, .select-form p{
+    color: #FFF;
+    font-family: "Montserrat";
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.select-form p{
+    padding-bottom: 0.5rem;
+    cursor: pointer;
+}
+.form-2 input{
+    width: 100%;
+    padding: 0.63rem 1.69rem;
+    margin-top: 5px;
+    border-radius: 4px;
+    border: 1px solid #FFF;
+    background: rgba(255, 255, 255, 0.03);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: #FFF;
+    font-family: "Montserrat";
+    font-size: 0.8125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.select-form{
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    z-index: 4;
+    padding: 1rem;
+    border-radius: 12px;
+    background-color: var(--background);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.form-2 input::placeholder{
+    color: rgba(255, 255, 255, 0.25);
+    font-family: "Montserrat";
+    font-size: 0.8125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.form-con-2{
+    display: flex;
+    align-items: center;
+    gap: 19px;
+}
+.form-left{
+    width: 65%;
+}
+.form-right{
+    width: 35%;
+}
+.form-instruction{
+    margin-top: 15px;
+    color: #FF26B9;
+    font-family: "Montserrat";
+    font-size: 0.5625rem;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+}
+.agree{
+    display: flex;
+    gap: 10px;
+    margin-top: 12px;
+}
+.agree input{
+    background-color: transparent;
+    border-radius: 0.125rem;
+    border: 1px solid #FFF;
+}
+.agree label{
+    color: #FFF;
+    font-family: "Montserrat";
+    font-size: 0.625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.register-button-con{
+    display: flex;
+    justify-content: center;
+}
+.register-button-3{
+    margin-top: 14px;
+    padding: 1.06rem 3.56rem;
+    border-radius: 0.25rem;
+    border: none;
+    background: var(--primary-color);
+    color: #FFF;
+    font-family: "Montserrat";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.star-22{
+    position: absolute;
+    top: 18%;
+    left: -10%;
+    font-size: 0.875rem;
+    color: rgba(211, 211, 211, 0.4);
+    animation: blink2 4s infinite;
+}
+.star-23{
+    position: absolute;
+    bottom: 30%;
+    right: -8%;
+    font-size: 0.5625rem;
+    color: var(--secondary-color);
+    animation: blink4 4s infinite;
+}
+.star-24{
+    position: absolute;
+    bottom: 30%;
+    right: 0%;
+    font-size: 0.875rem;
+    color: var(--secondary-color);
+    animation: blink4 4s infinite;
+}
+.star-25, .star-26{
+    display: none;
+}
+@media (min-width: 1000px){
+    .register-body{
+        padding: 1.5rem 6.38rem;
+        padding-bottom: 3.56rem;
+        display: flex;
+        align-items: center;
+    }
+    .register-left{
+        width: 45%;
+    }
+    .register-right{
+        padding: 4.09rem 5.75rem;
+        width: 55%;
+        border-radius: 12px;
+        background: rgba(255, 255, 255, 0.03);
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    }
+    /* .register-con{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    } */
+    .register-con img{
+        width: 100%;
+    }
+    .register-head-2{
+        display: block;
+        color: #D434FE;
+        font-family: "Clash Display";
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+    .register-instruction{
+        margin-top: 46px;
+        text-align: left;
+        font-size: 0.875rem;
+    }
+    .register-instruction span img{
+        width: 1.625rem;
+    }
+    .register-topic{
+        margin-top: 19px;
+        font-size: 1.5rem;
+    }
+    .register-form{
+        width: 100%;
+        margin-top: 33px;
+    }
+    .form-con{
+        width: 100%;
+        display: flex;
+        gap: 32px;
+    }
+    .form-2,.form-left,.form-right{
+        width: 50%;
+    }
+    .form-2{
+        margin-bottom: 29px;
+    }
+    .form-2 label, .form-3 label{
+        font-size: 0.875rem;
+    }
+    .form-2 input, .form-3 select{
+        padding: 0.94rem 1.69rem;
+        margin-top: 11px;
+        font-size: 0.875rem;
+    }
+    .form-instruction{
+        margin-top: 15px;
+        color: #FF26B9;
+        font-family: "Montserrat";
+        font-size: 0.5625rem;
+        font-style: italic;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .form-instruction{
+        margin-top: 23px;
+        font-size:  0.75rem;
+    }
+    .agree{
+        margin-top: 16px;
+    }
+    .agree label{
+        font-size: 0.75rem;
+    }
+    .register-button-3{
+        margin-top: 22px;
+        width: 100%;
+    }
+    .star-22{
+        position: absolute;
+        top: 3%;
+        left: 70%;
+        right: 0%;
+        font-size: 1.625rem;
+        color: rgba(211, 211, 211, 0.4);
+        animation: blink2 4s infinite;
+    }
+    .star-24{
+        position: absolute;
+        bottom: 20%;
+        right: 10%;
+        font-size: 1.4375rem;
+        color: var(--secondary-color);
+        animation: blink4 4s infinite;
+    }
+    .star-25{
+        display: block;
+        position: absolute;
+        bottom: 0%;
+        left: 0%;
+        font-size: 1.625rem;
+        color: rgba(211, 211, 211, 0.4);
+        animation: blink2 4s infinite;
+    }
+    .star-26{
+        display: block;
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        font-size: 1.3125rem;
+        color: var(--order-color);
+        animation: blink3 4s infinite;
+    }
+}

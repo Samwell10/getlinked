@@ -1,0 +1,262 @@
+.contact-body{
+    padding: 2.56rem 3.06rem;
+    display: block;
+}
+.contact-nav{
+    display: none;
+}
+.contact-nav-mobile{
+    padding: 2.94rem 3.19rem;
+}
+.contact-left{
+    display: none;
+}
+.contact-right{
+    position: relative;
+}
+.contact-right-head{
+    color: #D434FE;
+    font-family: "Clash Display";
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.contact-right-text{
+    margin-top: 24px;
+    color: #FFF;
+    font-family: "Montserrat";
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.contact-form{
+    width: 100%;
+    margin-top: 30px;
+}
+.form-1{
+    margin-bottom: 25px;
+}
+.form-1 input{
+    padding: 0.81rem 1.5rem;
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid #FFF;
+    background: rgba(255, 255, 255, 0.03);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: #FFF;
+    font-family: "Montserrat";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+} 
+.form-1 input::placeholder{
+    color: #FFF;
+    font-family: "Montserrat";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.form-1 textarea{
+    height: 160px;
+    padding: 1.69rem 1.5rem;
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid #FFF;
+    background: rgba(255, 255, 255, 0.03);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: #FFF;
+    font-family: "Montserrat";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+} 
+.form-1 textarea::placeholder{
+    color: #FFF;
+    font-family: "Montserrat";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.submit-con{
+    margin-top: 6px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.submit-button{
+    padding: 1.06rem 3.56rem;
+    border-radius: 4px;
+    border: none;
+    background: var(--primary-color);
+    color: #FFF;
+    font-family: "Montserrat";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.contact-us-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 41px;
+}
+.contact-us-text{
+    color: #D434FE;
+    font-family: "Montserrat";
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.contact-us-icon{
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+.contact-us-icon svg{
+    font-size: 1.03488rem;
+    color: #FFF;
+}
+.star-17{
+    position: absolute;
+    top: -10%;
+    left: 50%;
+    font-size: 0.6875rem;
+    color: var(--other-color);
+    animation: blink3 4s infinite;
+}
+.star-18{
+    position: absolute;
+    top: 4%;
+    right: 0%;
+    font-size: 1rem;
+    color: rgba(211, 211, 211, 0.4);
+    animation: blink2 4s infinite;
+}
+.star-19{
+    position: absolute;
+    bottom: 25%;
+    right: -8%;
+    font-size: 0.75rem;
+    color: whitesmoke;
+    animation: blink 4s infinite;
+}
+.star-20{
+    position: absolute;
+    bottom: 13%;
+    left: 0%;
+    font-size: 0.75rem;
+    color: var(--secondary-color);
+    animation: blink4 4s infinite;
+}
+@media (min-width:1000px){
+    .contact-body{
+        padding: 6.75rem 11.75rem;
+        display: flex;
+        gap: 50px;
+    }
+    .contact-nav{
+        display: block;
+    }
+    .contact-nav-mobile{
+        display: none;
+    }
+    .contact-left{
+        position: relative;
+        margin-top: 50px;
+        width: 40%;
+        display: block;
+    }
+    .contact-right{
+        padding: 4.69rem 5.75rem;
+        width: 60%;
+        border-radius: 0.75rem;
+        background: rgba(255, 255, 255, 0.03);
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    }
+    .contact-right-text{
+        display: none;
+    }
+    .form-1{
+        margin-bottom: 42px;
+    }
+    .contact-left-head{
+        color: var(--other-color);
+        font-family: "Clash Display";
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+    .contact-left-text{
+        margin-top: 17px;
+        color: #FFF;
+        font-family: "Montserrat";
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .contact-us{
+        margin-top: 35px;
+    }
+    .contact-us-2{
+        display: none;
+    }
+    .contact-us-text{
+        font-size: 1rem;
+    }
+    .contact-us-icon{
+        margin-top: 14px;
+        display: flex;
+        align-items: center;
+        gap: 19px;
+    }
+    .contact-us-icon svg{
+        font-size: 1.5rem;
+        color: #FFF;
+    }
+    .star-17{
+        display: none;
+    }
+    .star-18{
+        position: absolute;
+        top: -10%;
+        right: 5%;
+        font-size: 1.625rem;
+        color: rgba(211, 211, 211, 0.4);
+        animation: blink2 4s infinite;
+    }
+    .star-19{
+        position: absolute;
+        bottom: 0%;
+        right: -8%;
+        font-size: 1.625rem;
+        color: whitesmoke;
+        animation: blink 4s infinite;
+    }
+    .star-20{
+        position: absolute;
+        bottom: 13%;
+        left: -2%;
+        font-size: 1.625rem;
+        color: var(--secondary-color);
+        animation: blink4 4s infinite;
+    }
+    .star-21{
+        position: absolute;
+        top: -20%;
+        left: -2%;
+        font-size: 1.625rem;
+        color: var(--secondary-color);
+        animation: blink4 4s infinite;
+    }
+}
